@@ -30,7 +30,7 @@
     * Track additions to the GBA CMD/DMD Certification platforms
     * Track updates to the NAESB REQ.21 ESPI standard
 
-  * Arcadia (Ben or Michael)?
+  * Ben (Arcadia)
     * Asked if NAESB REQ.21 ESPI updates would be discussed during Task Force calls or elsewhere
 
   * Don
@@ -46,7 +46,7 @@
       * Add support for Billing PDF Statements to the NAESB ESPI standard [#5](https://github.com/GreenButtonAlliance/openADE-Task-Force/issues/5)
       * Add support for OAuth 2.0 JSON Web Token (JWT) Access Tokens to NAESB ESPI Standard [#6](https://github.com/GreenButtonAlliance/openADE-Task-Force/issues/6)
 
-  * Arcadia (Ben or Michael)?
+  * Ben (Arcadia)
     * Suggested that the Issues affecting the NAESB ESPI standard reference the specific section of the standard 
       affected
       * Don responded that all issues are new and will reference the affected NAESB ESPI sections
