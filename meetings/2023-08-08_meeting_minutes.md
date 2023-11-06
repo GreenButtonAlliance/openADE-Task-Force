@@ -1,0 +1,20 @@
+# OpenADE Task Force Meeting 2023-08-08
+
+## Agenda
+* Welcome
+* Work on OpenADE Task Force issues:
+  * Issue #1 - [#1](https://github.com/GreenButtonAlliance/openADE-Task-Force/issues/1)
+  * Render - https://www.greenbuttonalliance.org/issue-001
+  * Issue #5 - [#5](https://github.com/GreenButtonAlliance/openADE-Task-Force/issues/5)
+  * Render - https://www.greenbuttonalliance.org/issue-005
+* Review and approve minutes
+
+## Attendees
+* Donald F. Coffin (Green Button Alliance) (Maintainer)
+* TODO
+
+## Minutes
+* TODO
+
+## Closing Discussion
+* Consensus to commit this to repo? Yes/No
