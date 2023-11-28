@@ -15,13 +15,15 @@
 ## Attendees
 * Donald F. Coffin (Green Button Alliance) (Maintainer)
 * Jeremy J. Roberts (Green Button Alliance)
+* Valdis Hellevik (Green Button Alliance)
+* Ernst Eder (Green Button Alliance)
 * Klaar De Schepper (Flux Tailor)
 * Dee Hastey (Big Data ES)
 * Michael Murray (Mission:data)
-* Ernst Eder (GBA)
 * Dan Gowans (The City of Sault Ste. Marie)
 * Bob Champagne (Smart Energy Water)
-* Lucas Scheidler (Itron)
+* Luke Scheidler (Itron)
+* Vinny Lou (Con Edison)
 * NAESB (unidentified participant)
 
 ## Minutes
@@ -37,7 +39,7 @@
     Green Button support to the SEW Customer Experience platform
   * Klaar De Schepper introduced herself and discussed Flux Tailor's participation in adding the Statement
     resource to the Green Button standard and her ongoing work with the New York Green Button platform
-  * Lucas Scheidler introduced himself and described his background and interest in sharing data
+  * Luke Scheidler introduced himself and described his background and interest in sharing data
   * Michael Murray (Mission:data) introduced himself and the role of Mission:data
   * NAESB dropped from the meeting as they were being called upon to speak
 
