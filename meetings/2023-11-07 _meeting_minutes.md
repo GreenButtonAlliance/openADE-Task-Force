@@ -14,6 +14,7 @@
 
 ## Attendees
 * Donald F. Coffin (Green Button Alliance) (Maintainer)
+* Jeremy J. Roberts (Green Button Alliance)
 * Klaar De Schepper (Flux Tailor)
 * Dee Hastey (Big Data ES)
 * Michael Murray (Mission:data)
