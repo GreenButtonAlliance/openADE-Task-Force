@@ -46,7 +46,7 @@ technical issues and enhancements related to implementation of the Green Button 
 OpenADE Task Force to allow utilities in Ontario to raise questions and make requests for changes to the standard as 
 they roll out. 
 
-They also discussed the addition of the Statement resource to the Customer Retail scheme, which is currently under 
+They also discussed the addition of the Statement resource to the Customer Retail schema, which is currently under 
 review. Don, a member of the Retail Market Quadrant Executive Committee, announced that a document related to these 
 developments was open for review and that anyone could access it, not just NAESB members.  Don expressed his hope there 
 would be no comments by the end of the NAESB review period to avoid any delays. He mentioned a mistake that
@@ -75,7 +75,7 @@ Don discussed the need to address and correct specifications in Ontario accordin
 the use of version 3.3. He also clarified that while minor corrections can be made, they are not complete updates of 
 the NAESB REQ.21 ESPI standard.
 
-##ITAG and PLC Support
+## ITAG and PLC Support
 Don further discussed the topic of how the standard supports the ITAG or the PLC and the Wholesale market, and 
 anticipated that additional fields may need to be added to the usage point to accommodate the wholesale market. 
 Michael mentioned another necessary consideration, the service voltage, which Don confirmed should already be 
