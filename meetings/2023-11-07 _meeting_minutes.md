@@ -1,0 +1,23 @@
+# OpenADE Task Force Meeting 2023-11-07
+
+## Agenda
+* Welcome
+* Review and approve minutes
+* Ontario, Canada provincial Green Button rollout
+    * Implementation issue tracking system
+* Work on OpenADE Task Force issues:
+    * Issue #5 Update - [#5](https://github.com/GreenButtonAlliance/openADE-Task-Force/issues/5)
+    * Render - https://www.greenbuttonalliance.org/issue-005
+    * Issue #1 - [#1](https://github.com/GreenButtonAlliance/openADE-Task-Force/issues/1)
+    * Render - https://www.greenbuttonalliance.org/issue-001
+* New York ISO (NYISO) ITAG and PJM PLC wholesale market data requirements
+
+## Attendees
+* Donald F. Coffin (Green Button Alliance) (Maintainer)
+* TODO
+
+## Minutes
+* TODO
+
+## Closing Discussion
+* Consensus to commit this to repo? Yes/No
