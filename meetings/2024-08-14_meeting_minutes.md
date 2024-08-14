@@ -91,7 +91,7 @@
 ## Attendees
 * Donald F. Coffin (Green Button Alliance) (Maintainer)
 * Dee Hastey (Big Data Energy Services)
-* Yogesh Moradiya (BES - Ontario, Canada)
+* Yogesh Moradiya (Blackstone Energy Services - Ontario, Canada)
 * Valdis Hellevik (Green Button Alliance)
 * Daniel Roesler (UtilityAPI)
 
