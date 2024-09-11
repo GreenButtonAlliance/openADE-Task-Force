@@ -68,8 +68,7 @@
     in the UsageSummary costAdditionalDetailLastPeriod LineItem structure
       * What should the Energy Usage Function Block be named? 
       * Should the new Function Block be added to the Version 3.3 and the Version 4.0 TestSuites?
-  * Add a new optional Function Block to verify the utility is properly reporting retrievable digital billing 
-    statements
+  * Add a new optional Function Block to verify the utility is properly reporting retrievable digital billing statements
       * What should the Retail Customer Function Block be named?
       * Should the new Function Block be added to the Version 3.3 and the Version 4.0 TestSuites?
           * If added to the Version 3.3 TestSuites should the CMD Certification Platform be renamed to not follow 
@@ -77,8 +76,7 @@
               * Since the NAESB ESPI version 4.0 standard requires only TLS 1.3, utilities with cloud frontends that 
                 support TLS 1.2 and TLS 1.3 fail the [FB_13] Energy Usage Security and Privacy and [FB_64] 
                 Retail Customer Security and Privacy Test that want to support Digital Statements
-  * Add a new TestStep to [FB_58] Retail Customer ServiceLocation Information to confirm the utility is properly 
-    referencing UsagePoints located at the customer's ServiceLocation
+  * Add a new TestStep to [FB_58] Retail Customer ServiceLocation Information to confirm the utility is properly referencing UsagePoints located at the customer's ServiceLocation
 
 
 * NAESB ESPI Standard Updates
