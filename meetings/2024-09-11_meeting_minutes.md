@@ -66,8 +66,7 @@
 * [Don] Welcome and introduction of new attendees
 * [Don] Reviewed the minutes of the last meeting
 * [Don] Discussed the similarity between Green Button and the EPA Portfolio Manager
-  * [Jeremy] Feels the OpenADE Task Force can support Green Power reporting if we can obtain experts in the EAC and 
-    REC markets.
+  * [Jeremy] Feels the OpenADE Task Force can support Green Power reporting if we can obtain experts in the EAC and REC markets.
   * [Dee] Discussed her role in supporting the EAC and REC markets for BDES.
 * [Don] Discussed the status of the pending Code Snippets 
 * [Don] Discussed the status of the CMD Certification Platform updates 
