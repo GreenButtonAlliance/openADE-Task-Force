@@ -2,7 +2,7 @@
 
 ## Agenda
 * Welcome
-* Introductions of attendees
+* Introduction of attendees
 * Review and approve minutes
 
 
