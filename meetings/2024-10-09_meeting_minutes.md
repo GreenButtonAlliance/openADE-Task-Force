@@ -48,10 +48,35 @@
 
 ## Attendees
 * Donald F. Coffin (Green Button Alliance) (Maintainer)
+* Jeremy J. Roberts (GBA)
+* Valdis Hellevik (GBA)
+* Dee Hastey (Big Data Energy Services)
+* Alberto Colombo (DERnetSoft)
+* Gavin Hatfield (DERnetSoft)
+* Nicole Sullivan (Cleartrace)
 
 
 ## Minutes
-* TODO
+* [Don] Welcome and introduction of new attendees
+* [Don] Reviewed the minutes of the last meeting
+* [Don] Reviewed the status of the EPA Portfolio Manager Green Power reporting requirements
+* [Don] Discussed the pending code snippets
+* [Don] Discussed the [FB_26] Usage Summary Billing Details updates
+* [Don] Discussed the [FB_71] Retail Customer Billing Statement updates
+  * [Jeremy] Mentioned that [FB_71] will usually be PDF data files
+  * [Jeremy] Further discussed the TLS 1.3 issue and the addition of [FB_71] to the ESPI version 3.3 TestSuites
+* [Don] Further discussed the [FB_58] Retail Customer ServiceLocation Information Update
+* [Don] Discussed the addition of a FAQ section to the GBA website
+  * [Dee] Commented she'd look into here old emails and provide some questions for the FAQ section
+  * [Jeremy] Mentioned that we also want to add DER and Carbon Accounting capabilities to the Green Button standard
+  * [Nicole] Mentioned she would look into the EPA Portfolio Manager Green Power reporting requirements and provide some feedback
+  * [Alberto] Asked how DERs would use the Green Button standard for behind the meter data
+    * [Jeremy] Responded how some DERs are using the Green Button standard for behind the meter data and what could be done to improve it
+    * [Valdis] Mentioned that London Hydro and Electron did a pilot project with DERs and the Green Button standard a few 
+    years ago
+    * [Valdis] Offered to provide the report to Alberto
+
+
 
 ## Closing Discussion
-* Consensus to commit this to repo? Yes/No
+* Consensus to commit this to repo? Yes
