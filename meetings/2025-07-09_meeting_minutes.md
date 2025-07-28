@@ -1,0 +1,233 @@
+# OpenADE Task Force Meeting 2025-07-09
+
+## Agenda
+* Welcome
+* Introduction of attendees
+* Review and approve minutes
+
+
+## Technical Topic
+What other types of energy, besides electricity, natural gas, and water, can Green Button support and how?
+- Review current energy types in use (from ServiceKind and CommodityKind)
+- Discuss measurement types and units currently being reported
+- Evaluate if additional energy types or measurement methods should be supported
+- Review how energy data is being reported through the UsagePoint, ReadingType, and MeterReading structure
+- Discuss any gaps in the current reporting structure for energy types
+- Develop action plan for implementing any needed changes to support additional energy types or reporting methods
+
+
+## Current Energy Types (ServiceKind)
+The following utility service types are currently supported by the Green Button standard:
+- **None** - No specific service.
+- **Electricity** - Electric utility service.
+- **Gas** - Natural gas service.
+- **Water** - Water utility service.
+- **Time** - Time-related service data.
+- **Heat** - District heating or other thermal services.
+- **Refuse/Waste** - Wastewater or sewage services.
+- **Rates** - Rate-related services (pricing).
+- **TVLicensing** - Licensing for television services.
+- **Internet** - Internet service.
+
+
+## Energy Commodities (CommodityKind)
+More specific energy commodities are defined in CommodityKind:
+- **None** - No specific commodity
+- **Electricity SecondaryMetered**
+- **Electricity PrimayMetered**
+- **Communication**
+- **AirInsulativeOil**
+- **InsulativeGas**
+- **Natural Gas**
+- **Propane**
+- **Steam**
+- **Waste Water**
+- **Heating Fluid**
+- **Cooling Fluid**
+- **Potible Water**
+- **NonPotable Water**
+- **Nitrous Oxide (NOX)**
+- **Sulfer Dioxide (SO2)**
+- **Methane (CH4)**
+- **Carbon Dioxide (CO2)**
+- **Carbon**
+- **Hexachlorocyclohexane (HCH)**
+- **Perfluorcarbons (PFCs)**
+- **Sulfer Hexafluoride (SF6)**
+- **TV License**
+- **Internet**
+- **Refuse**
+- **Electricity TransmissionMetered**
+
+## Measurement Types (MeasurementKind)
+Energy can be measured and reported in various ways:
+- **none** - Not Applicable
+- **apparentPowerFactor** - Apparent Power Factor
+- **currency** - Currency
+- **current** - Current
+- **currentAngle** - Current Angle
+- **currentImbalance** - Current Imbalance
+- **date** - Date
+- **demand** - Demand
+- **distance** - Distance
+- **distortionVoltAmperes** - Distortion Volt Amperes
+- **energization** - Energization
+- **energy** - Energy
+- **energizationLoadSide** - Energization Load Side
+- **fan** - Fan
+- **frequency** - Frequency
+- **Funds** - Funds (Duplication of “currency”)
+- **ieee1366ASAI** - ieee1366ASAI
+- **ieee1366ASIDI** - ieee1366ASIDI
+- **ieee1366ASIFI** - ieee1366ASIFI
+- **ieee1366CAIDI** - ieee1366CAIDI
+- **ieee1366CAIFI** - ieee1366CAIFI
+- **ieee1366CEMIn** - ieee1366CEMIn
+- **ieee1366CEMSMIn** - ieee1366CEMSMIn
+- **ieee1366CTAIDI** - ieee1366CTAIDI
+- **ieee1366MAIFI** - ieee1366MAIFI
+- **ieee1366MAIFIe** - ieee1366MAIFIe
+- **ieee1366SAIDI** - ieee1366SAIDI
+- **ieee1366SAIFI** - ieee1366SAIFI
+- **lineLosses** - Line Losses
+- **losses** - Losses
+- **negativeSequence** - Negative Sequence
+- **phasorPowerFactor** - Phasor Power Factor
+- **phasorReactivePower** - Phasor Reactive Power
+- **positiveSequence** - Positive Sequence
+- **power** - Power
+- **powerFactor** - Power Factor
+- **quantityPower** - Quantity Power
+- **sag** - Sag (Voltage Dip)
+- **swell** - Swell
+- **switchPosition** - Switch Position
+- **tapPosition** - Tap Position
+- **tariffRate** - Tariff Rate
+- **temperature** - Temperature
+- **totalHarmonicDistortion** - Total Harmonic Distortion
+- **transformerLosses** - Transformer Losses
+- **unipedeVoltageDip10to15** - Unipede Voltage Dip 10 to 15
+- **unipedeVoltageDip15to30** - Unipede Voltage Dip 15 to 30
+- **unipedeVoltageDip30to60** - Unipede Voltage Dip 30 to 60
+- **unipedeVoltageDip60to90** - Unipede Voltage Dip 60 to 90
+- **unipedeVoltageDip90to100** - Unipede Voltage Dip 90 to 100
+- **voltage** - Voltage
+- **voltageAngle** - Voltage Angle
+- **voltageExcursion** - Voltage Excursion
+- **voltageImbalance** - Voltage Imbalance
+- **volume** - Volume (Clarified from Ed. 1. to indicate fluid volume)
+- **zeroFlowDuration** - Zero Flow Duration
+- **zeroSequence** - Zero Sequence
+- **distortionPowerFactor** - Distortion Power Factor
+- **frequencyExcursion** - Frequency Excursion (Usually expressed as a “count”)
+- **applicationContext** - Application Context
+- **apTitle** - Ap Title
+- **assetNumber** - Asset Number
+- **bandwidth** - Bandwidth
+- **batteryVoltage** - Battery Voltage
+- **broadcastAddress** - Broadcast Address
+- **deviceAddressType1** - Device Address Type 1
+- **deviceAddressType2** - Device Address Type 2
+- **deviceAddressType3** - Device Address Type 3
+- **deviceAddressType4** - Device Address Type 4
+- **deviceClass** - Device Class
+- **electronicSerialNumber** - Electronic Serial Number
+- **endDeviceID** - End Device ID
+- **groupAddressType1** - Group Address Type 1
+- **groupAddressType2** - Group Address Type 2
+- **groupAddressType3** - Group Address Type 3
+- **groupAddressType4** - Group Address Type 4
+- **ipAddress** - IP Address
+- **macAddress** - MAC Address
+- **mfgAssignedConfigurationID** - Mfg Assigned Configuration ID
+- **mfgAssignedPhysicalSerialNumber** - Mfg Assigned Physical Serial Number
+- **mfgAssignedProductNumber** - Mfg Assigned Product Number
+- **mfgAssignedUniqueCommunicationAddress** - Mfg Assigned Unique Communication Address
+- **multiCastAddress** - Multicast Address
+- **oneWayAddress** - One Way Address
+- **signalStrength** - Signal Strength
+- **twoWayAddress** - Two Way Address
+- **signaltoNoiseRatio** - Signal to Noise Ratio (moved here from Attribute #9 UOM)
+- **alarm** - Alarm
+- **batteryCarryover** - Battery Carryover
+- **dataOverflowAlarm** - Data Overflow Alarm
+- **demandLimit** - Demand Limit
+- **demandReset** - Demand Reset (usually expressed as a count as part of a billing cycle)
+- **diagnostic** - Diagnostic
+- **emergencyLimit** - Emergency Limit
+- **encoderTamper** - Encoder Tamper
+- **ieee1366MomentaryInterruption** - ieee1366 Momentary Interruption
+- **ieee1366MomentaryInterruptionEvent** - ieee1366 Momentary Interruption Event
+- **ieee1366SustainedInterruption** - ieee1366 Sustained Interruption
+- **interruptionBehaviour** - Interruption Behaviour
+- **inversionTamper** - Inversion Tamper
+- **loadInterrupt** - Load Interrupt
+- **loadShed** - Load Shed
+- **maintenance** - Maintenance
+- **physicalTamper** - Physical Tamper
+- **powerLossTamper** - Power Loss Tamper
+- **powerOutage** - Power Outage
+- **powerQuality** - Power Quality
+- **powerRestoration** - Power Restoration
+- **programmed** - Programmed
+- **pushbutton** - Push Button
+- **relayActivation** - Relay Activation
+- **relayCycle** - Relay Cycle (usually expressed as a count)
+- **removalTamper** - Removal Tamper
+- **reprogrammingTamper** - Reprogramming Tamper
+- **reverseRotationTamper** - Reverse Rotation Tamper
+- **switchArmed** - Switch Armed
+- **switchDisabled** - Switch Disabled
+- **tamper** - Tamper
+- **watchdogTimeout** - Watchdog Timeout
+- **billLastPeriod** - Customer’s bill for the previous billing period (Currency)
+- **billToDate** - Customer’s bill, as known thus far within the present billing period (Currency)
+- **billCarryover** - Customer’s bill for the (Currency)
+- **connectionFee** - Monthly fee for connection to commodity.
+- **audibleVolume** - Audible Volume (Sound)
+- **volumetricFlow** - Volumetric Flow
+
+
+## Units of Measurement (UnitSymbolKind)
+The schema supports various units for reporting energy:
+- **Wh** (Watt hours) - Real energy
+- **VAh** (Volt Ampere hours) - Apparent energy
+- **VArh** (Volt Ampere reactive hours) - Reactive energy
+- **W** (Watt) - Real power
+- **VA** (Volt Ampere) - Apparent power
+- **VAr** (Volt Ampere reactive) - Reactive power
+
+## Reporting Structure
+Energy data is reported through:
+1. **UsagePoint** - Defines the service category (electricity, gas, etc.)
+2. **ReadingType** - Specifies how energy is measured (commodity, measurement kind, unit, etc.)
+3. **MeterReading** - Contains the actual readings
+4. **IntervalBlock** - Contains time-series data of readings
+
+## Open Discussion
+
+## Attendees
+* Donald F. Coffin (Green Button Alliance) (Maintainer)
+* Dee Hastey (Big Data Energy Services)
+* Valdis Hellevik (Green Button Alliance)
+* Mike Foye (Paymentus)
+* Marion Storey Biddle (Clean Energy Coop)
+* A.J. (Enbridge Gas)
+* Hakeem (Enbridge Gas)
+
+
+## Minutes
+* [Don] Opened the meeting and introduced new participants. Explained the purpose of the OpenADE Task Force and current efforts to modernize the GBA sandbox and certification platform.
+* [Participants] Introductions from Mike Foy (Paymentus), Valdis Hellevik (GBA), AJ and Hakeem (Enbridge Gas), Dee Hastie (Big Data Energy), and Marion Biddle (Clean Energy Coop).
+* [Don] Reviewed prior discussion about linking ServiceLocation usage point entries with valid data in energy streams. Noted CMD certification logic update is in progress but not yet in production.
+* [Discussion] Reaffirmed that ESPI supports aggregated and virtual meters (e.g., for street lamps), enabling standardized representation of non-physical energy sources.
+* [Don] Provided a detailed walkthrough of how Green Button schema supports diverse energy types using ServiceKind, CommodityKind, and MeasurementKind fields.
+* [Don] Displayed the full structure for defining UsagePoint, MeterReading, ReadingType, and IntervalBlock relationships. Highlighted existing support for oil, steam, and other non-electric commodities.
+* [Group] Expressed interest in new examples and documentation for steam and heating oil.
+* [Marion] Asked about real-world access to Green Button data beyond utility web pages. 
+  * [Don] Explained the difference between Download My Data (DMD) and Connect My Data (CMD) and limitations with non-certified utilities like PICO.
+  * [Don] Clarified that third parties can access CMD data via REST APIs if authorized by the customer, and noted upcoming support for embedded interval data in PDF exports.
+* [Discussion] Encouraged regulatory action for non-participating utilities. Noted that utilities certified by GBA can be held to data quality expectations.
+* [Don] Closed the call, invited additional participation, and reminded attendees of available technical support through GBA or direct contact.
+
+

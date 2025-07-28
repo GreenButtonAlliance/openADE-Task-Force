@@ -39,7 +39,7 @@
 
 
 ## Minutes
-* [don] Welcome and introduction of new attendees
+* [Don] Welcome and introduction of new attendees
 * [Don] Reviewed the minutes of the last meeting
 * [Don] Reviewed the status of the Code Snippets and Developer Resources
 * [Don] Reviewed the pending changes in the CMD Certification Platform
