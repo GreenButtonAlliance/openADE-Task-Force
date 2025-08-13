@@ -218,9 +218,11 @@ Energy data is reported through:
 
 ## Minutes
 * [Don] Opened the meeting and introduced new participants. Explained the purpose of the OpenADE Task Force and current efforts to modernize the GBA sandbox and certification platform.
-* [Participants] Introductions from Mike Foy (Paymentus), Valdis Hellevik (GBA), AJ and Hakeem (Enbridge Gas), Dee Hastie (Big Data Energy), and Marion Biddle (Clean Energy Coop).
+* [Mike] Introductions from Mike Foy (Paymentus), Valdis Hellevik (GBA), AJ and Hakeem (Enbridge Gas), Dee Hastie (Big 
+  Data Energy), and Marion Biddle (Clean Energy Coop).
 * [Don] Reviewed prior discussion about linking ServiceLocation usage point entries with valid data in energy streams. Noted CMD certification logic update is in progress but not yet in production.
-* [Discussion] Reaffirmed that ESPI supports aggregated and virtual meters (e.g., for street lamps), enabling standardized representation of non-physical energy sources.
+* [Don] Reaffirmed that ESPI supports aggregated and virtual meters (e.g., for street lamps), enabling standardized 
+  representation of non-physical energy sources.
 * [Don] Provided a detailed walkthrough of how Green Button schema supports diverse energy types using ServiceKind, CommodityKind, and MeasurementKind fields.
 * [Don] Displayed the full structure for defining UsagePoint, MeterReading, ReadingType, and IntervalBlock relationships. Highlighted existing support for oil, steam, and other non-electric commodities.
 * [Group] Expressed interest in new examples and documentation for steam and heating oil.
