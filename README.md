@@ -14,8 +14,7 @@ This repository is dedicated to the Green Button Alliance OpenADE Task Force. We
 ## Stuff you can do
 
 * Check out our website: https://greenbuttonalliance.org
-* Join the mailing list by sending an email to subscribe.openade@greenbuttonalliance.org to get notified about our 
-  upcoming meetings on our [calendar](https://greenbuttonalliance.org/events) .
+* Find out when our next meeting is on our [calendar](https://greenbuttonalliance.org/events) .
 
 
 ## Contributing
