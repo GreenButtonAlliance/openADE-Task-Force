@@ -52,6 +52,15 @@
 
 ## Attendees
 * Donald F Coffin (Green Button Alliance) (Maintainer)
+* Dee Hastey (Big Data Energy Services)
+* Daniel Roesler (Daniel Roesler LLC)
+* Mike Foye (Paymentus)
+* Chris Rollins (UtilityAPI)
+* Gary Cook (Josten)
+* Morgan Harrison (UtilityAPI)
+* Jeremy J Roberts (Green Button Alliance)
+* Valdis Hellevik (Green Button Alliance)
+
 
 
 ## Minutes
