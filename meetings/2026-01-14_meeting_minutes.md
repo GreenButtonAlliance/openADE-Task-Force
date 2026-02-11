@@ -53,10 +53,10 @@
 ## SFTP removal proposal status
   Donald updated the group on the status of the proposal to remove SFTP as a transport option.
 - Details
-  - Donald: The request to remove SFTP as a transport option has been accepted by NASB
-  - Donald: The proposal will be discussed at the SB Task Force meeting on January 29th
-  - Donald: If it passes the SB Task Force, it will go to the RMQ Executive Committee meeting
-  - Jeremy: The first meeting of SB will be on January 29th
+  - Donald: The request to remove SFTP as a transport option has been accepted by NAESB
+  - Donald: The proposal will be discussed at the ESPI Task Force meeting on January 29th
+  - Donald: If it passes the ESPI Task Force, it will go to the RMQ Executive Committee meeting
+  - Jeremy: The first meeting of the ESPI Task Force will be on January 29th
   - Donald: The RMQ Executive Committee meetings are held approximately every 6 months, with the last one in October
 - Conclusion
   - The proposal is moving forward in the approval process
