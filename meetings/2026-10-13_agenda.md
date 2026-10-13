@@ -1,0 +1,46 @@
+# OpenADE Task Force Meeting 2026-10-13
+
+## Agenda
+* Welcome
+* Introduction of attendees
+* Review and approve minutes
+
+## Discussion of GBA Board of Directors Decision on How to Handle Future NAESB ESPI Standard Updates
+* Presentation by Josh Keeling, Chair, Green Button Alliance Board of Directors
+
+## GBA CMD Certification Platform Updates
+* CMD Mock Service Server (CMDCertification)
+  * Now uses a formal GitHub CI/CD pipeline and Release Management
+  * CMDCertification 1.0.0 released on October 11, 2026
+  * Added
+    - A CHANGELOG.md file has been created to track changes in the software.
+    - The /notification endpoint now only accepts BatchList from DC under test
+    - The build version is logged at the start and end of every run
+    - The /Admin/GetTokenResponse relays the custodian's token-response headers (if present)
+      + Date, Content-Type, Cache-Control, and Pragma as X-DC-* elements
+    - The /Admin/OAuthCodeReceivedValue reports how long ago the code arrived 
+      + Reported as X-Code-Age-MS: a duration on the platform's monotonic clock
+  * Changed
+    - Every OAuth parameter is form-encoded
+    - The 'state' parameter is no longer a compile-time constant, it is generated per authorization request
+    - Spring Actuator exposes only health and info
+      + Previously include=* had exposed TLS private key, keystore password, and other sensitive information.
+    - The deployed jar carries no configuration.
+      + TLS settings now are configured via env.properties
+    - Credentials are now masked in the CMDCerts.log [masked, lenght=N, fp=xxxxxxxx]
+      + The cmdcert.log.full-token and cmdcert.log.full-credential flags allow logging in the clear for diagnostic work
+  
+
+* CMD Certification Platform (SoapUI Application)
+  * Now uses a formal GitHub CI/CD pipeline and Release Management
+  * OpenESPI-GreenButtonCMDTest 4.0.0 is pending release
+
+
+## Open Discussion
+
+## Attendees
+* Donald F Coffin (Green Button Alliance) (Maintainer)
+
+
+## Minutes
+
