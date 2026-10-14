@@ -6,3 +6,14 @@
 website/_site
 website/Gemfile.lock
 website/.jekyll-cache
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# Jekyll build output (any level)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
